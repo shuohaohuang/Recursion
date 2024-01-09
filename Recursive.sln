@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum", "Recursive\Sum.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Power", "RecursionPow\Power.csproj", "{625D2A50-D0CF-4A57-A049-78D3116CF097}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{7B5CCEE4-E769-4AB6-8A23-0CDFDB5F1275}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RussianMult", "RussianMult\RussianMult.csproj", "{1D979316-685C-4BF7-9A80-613BD175B915}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{625D2A50-D0CF-4A57-A049-78D3116CF097}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{625D2A50-D0CF-4A57-A049-78D3116CF097}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{625D2A50-D0CF-4A57-A049-78D3116CF097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5CCEE4-E769-4AB6-8A23-0CDFDB5F1275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5CCEE4-E769-4AB6-8A23-0CDFDB5F1275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5CCEE4-E769-4AB6-8A23-0CDFDB5F1275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5CCEE4-E769-4AB6-8A23-0CDFDB5F1275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D979316-685C-4BF7-9A80-613BD175B915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D979316-685C-4BF7-9A80-613BD175B915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D979316-685C-4BF7-9A80-613BD175B915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D979316-685C-4BF7-9A80-613BD175B915}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
