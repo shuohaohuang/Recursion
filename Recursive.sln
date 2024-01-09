@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum", "Recursive\Sum.csproj", "{65B286CD-75D2-4434-9238-AA85FD9C6C4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Power", "RecursionPow\Power.csproj", "{625D2A50-D0CF-4A57-A049-78D3116CF097}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{65B286CD-75D2-4434-9238-AA85FD9C6C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65B286CD-75D2-4434-9238-AA85FD9C6C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65B286CD-75D2-4434-9238-AA85FD9C6C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625D2A50-D0CF-4A57-A049-78D3116CF097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625D2A50-D0CF-4A57-A049-78D3116CF097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625D2A50-D0CF-4A57-A049-78D3116CF097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625D2A50-D0CF-4A57-A049-78D3116CF097}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
