@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitSum", "DigitSum\DigitS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumber", "PrimeNumber\PrimeNumber.csproj", "{CE658FFD-CAAC-46CE-86FE-B1ADD79824FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyric", "Lyric\Lyric.csproj", "{276539C2-8EAE-4423-B3DB-FCBAB83BDD1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{CE658FFD-CAAC-46CE-86FE-B1ADD79824FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE658FFD-CAAC-46CE-86FE-B1ADD79824FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE658FFD-CAAC-46CE-86FE-B1ADD79824FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{276539C2-8EAE-4423-B3DB-FCBAB83BDD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276539C2-8EAE-4423-B3DB-FCBAB83BDD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276539C2-8EAE-4423-B3DB-FCBAB83BDD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276539C2-8EAE-4423-B3DB-FCBAB83BDD1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
