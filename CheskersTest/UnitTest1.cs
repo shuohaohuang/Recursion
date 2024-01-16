@@ -7,6 +7,7 @@ namespace CheskersTest
     public class UnitTest1
     {
         [TestMethod]
+
         public void Name_
         [TestMethod]
         public void String_1_False()
