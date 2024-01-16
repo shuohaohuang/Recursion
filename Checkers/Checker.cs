@@ -1,23 +1,50 @@
-﻿namespace Checkers
+﻿using System.Diagnostics.Metrics;
+
+namespace Checkers
 {
     public class Checker
     {
         public static bool Name(string name)
         {
 
-            return Word(name.Length)&&Word(name);
+            return length(name.Length)&&ValidString(name);
         }
 
-        public static bool Word(int lenght)
+        public static bool length(int lenght)
         {
             const int Min = 2, Max = 25;
             
             return lenght>Min&&lenght>Max;
         }
-        public static bool Word(string word)
+        public static bool ValidString(string word)
         {
+            const string validInput = "qwertyuiopasdfghjklñzxcvbnmç1234567890";
 
-            return false;
+            bool valid=true;
+
+            word = word.ToLower();
+            
+            for(int i = 0; i<word.Length;i++)
+            {
+                if (validInput.Contains(word[i]))
+                return !valid;
+            }
+            return valid;
+        }
+        public static bool ValidInput(string word){
+
+            switch (word)
+            {
+                case "1":
+                case "2":
+                case "3":
+                case "4":
+                    return true;
+                   break;
+                default: return false;
+
+            }
+
         }
 
         public static bool InRange(int value, int min, int max)

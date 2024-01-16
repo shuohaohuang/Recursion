@@ -6,9 +6,7 @@ namespace CheskersTest
     [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
 
-        public void Name_
         [TestMethod]
         public void String_1_False()
         {
@@ -32,11 +30,16 @@ namespace CheskersTest
         
 
         [TestMethod]
-        public void InRange_999_False() { }
+        public void InRange_999_Min1000_Max5000_False() { }
         [TestMethod]
-        public void InRange_1000_True() { }
-
-
-
+        public void InRange_1000_Min1000_Max5000_True() { }
+        [TestMethod]
+        public void Split_4_4_1() { }
+        [TestMethod]
+        public void Split_4_0_0() { }
+        [TestMethod]
+        public void VowelCounter_4vowel_4() { }
+        [TestMethod]
+        public void VowelsCounter_0vowel_0() { }
     }
 }
